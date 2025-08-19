@@ -1,7 +1,7 @@
 # ギャラリー定義書（MVP）
 
 ## 固定ルール（全員共通）
-- APIのURL：＜ここに貼る＞ 例）`https://xxxx.workers.dev/api/list`
+- APIのURL：`https://sokoku-gravure-list-worker.yamadayamadao.workers.dev/api/list`
 - APIの内容：
   - `GET /api/list`           → `{ "people": ["aaa","bbb"], "nextCursor": null }`
   - `GET /api/list?person=xx` → `{ "items": [{ "key": "xx-001.jpg", "url": "https://.../xx-001.jpg" }], "nextCursor": null }`
